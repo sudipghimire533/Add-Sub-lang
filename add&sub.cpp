@@ -1,3 +1,8 @@
+#include<iostream>
+
+int add(int, int);
+int sub(int, int);
+
 int main(int, char**, char**) {
     std::cout << "Sum of 10 and 20 is: " << add(10, 20) << std::endl;
     std::cout << "Dufference of 20 and 10 is: " << sub(20, 10) << std::endl;
