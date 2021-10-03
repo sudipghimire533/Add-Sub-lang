@@ -1,9 +1,11 @@
 #include<stdio.h>
    
+
+int sum(int num1, int num2); 
+int sub(int num1, int num2);
+
 int main() 
 {
-   int sum(int num1, int num2); 
-   int sub(int num1, int num2);
    int num1, num2, add, diff;
    printf("\nEnter the two numbers : ");
    scanf("%d %d", &num1, &num2);
